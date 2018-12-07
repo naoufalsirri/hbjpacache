@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" >
+
+	
+	
+	<cache name="fr.naf.hbjpa.hbjpacache.secondecache.Pays" 
+		maxElementsInMemory="1000"
+		eternal="true" 
+		overflowToDisk="false">				  
+	</cache>
+
+
+	<cache name="fr.naf.hbjpa.hbjpacache.secondecache.Ville" 
+		maxElementsInMemory="1000"
+		eternal="true" 
+		overflowToDisk="false">				  
+	</cache>
+	
+	<cache name="fr.naf.hbjpa.hbjpacache.secondecache.Pays.villes" 
+		maxElementsInMemory="1000"
+		eternal="true" 
+		overflowToDisk="false">				  
+	</cache>
+	
+</ehcache>
